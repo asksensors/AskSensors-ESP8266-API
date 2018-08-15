@@ -16,7 +16,7 @@ const char* wifi_password = "..........";         // WIFI
 const char* https_host = "asksensors.com";         // ASKSENSORS host name
 const int https_port = 443;                        // https port
 const char* https_fingerprint =  "B5 C3 1B 2C 0D 5D 9B E5 D6 7C B6 EF 50 3A AD 3F 9F 1E 44 75";     // ASKSENSORS HTTPS SHA1 certificate
-const char* apiKeyIn = "FALOAPPKH17ZR4Q23A8U9W0XPJL0F6OG";      // API KEY IN
+const char* apiKeyIn = "..........";      // API KEY IN, example: FALOAPPKH17ZR4Q23A8U9W0XPJL0F6OG
 
 // create ASKSENSORS client
 WiFiClientSecure client;
