@@ -56,7 +56,7 @@ void loop() {
   }
 
   // Create a URL for the request
-  String url = "/askSensorApi/write/";
+  String url = "/api.asksensors/write/";
   url += apiKeyIn;
   url += "?module1=";
   url += module1_value++;
