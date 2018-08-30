@@ -1,4 +1,4 @@
-# AskSensors-ESP8266-HTTPS
+# AskSensors_ESP8266_HTTPS_v1
 ESP8862 communication with asksensors over https request
 
 Requirements:
