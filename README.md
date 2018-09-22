@@ -1,7 +1,6 @@
-# AskSensors_ESP8266_HTTPS_v1
-ESP8862 communication with asksensors over https request
+# AskSensors_ESP8266
+ESP8862 communication with asksensors
 
 Requirements:
 - Install the ESP8266 WIFI libraries: https://github.com/asksensors/Arduino/tree/master/libraries/ESP8266WiFi/examples/HTTPSRequest
-- Use the sketch HTTPSRequest_asksensors.ino: https://github.com/asksensors/Arduino-ESP8266-HTTPS/blob/master/HTTPSRequest_asksensors.ino
 - Getting started guides and tutorials are available on https://asksensors.com/
