@@ -1,8 +1,9 @@
 # AskSensors ESP8266 API
-Connect ESP8862 to AskSensors IoT Platform (https://asksensors.com).
+Connect ESP8862 to AskSensors IoT Platform.
 
 Requirements:
 - 
+- Create AskSensors account: https://asksensors.com
 - Install the ESP8266 WIFI libraries: https://github.com/asksensors/Arduino/tree/master/libraries/ESP8266WiFi
 
 Step-by-Step tutorials:
