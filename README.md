@@ -1,5 +1,5 @@
 # AskSensors ESP8266 API
-Connect ESP8862 to AskSensors IoT Platform.
+Connect ESP8266 to AskSensors IoT Platform.
 
 Requirements:
 - 
