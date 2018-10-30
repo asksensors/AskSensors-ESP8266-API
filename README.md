@@ -8,4 +8,4 @@ Requirements:
 
 Step-by-Step tutorials:
 -
-- [Connect ESP8266 nodeMCU to AskSensors](https://www.instructables.com/id/Getting-Started-With-ESP8266-and-AskSensors-IoT-Pl)
+- [Connect ESP8266 nodeMCU to AskSensors over HTTPS](https://www.instructables.com/id/Getting-Started-With-ESP8266-and-AskSensors-IoT-Pl)
