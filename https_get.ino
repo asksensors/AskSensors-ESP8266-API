@@ -46,15 +46,17 @@ void loop() {
   Serial.println(https_host);
   if (!client.connect(https_host, https_port)) {
     Serial.println("-> connection failed");
-    return;
+    //return;
   }
-    
+  
+  /*  
   if (client.verify(https_fingerprint, https_host)) {
     Serial.println("-> certificate matches");
   } else {
     Serial.println("-> certificate doesn't match");
   }
-
+  */
+  
   // Create a URL for the request
   String url = "/api.asksensors/write/";
   url += apiKeyIn;
