@@ -1,8 +1,7 @@
 /*
  * askSensors HTTPS Request
- * Description: This examples connects the ESP to wifi, and sends dummy data to askSensors IoT platfom over HTTPS GET Request.
+ * Description: Connect ESP8266 to AskSensors over HTTPS GET Request.
  *  Author: https://asksensors.com, 2018
- *  original created by Ivan Grokhotkov, 2015.
  */
 
 // includes
