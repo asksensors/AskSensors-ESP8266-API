@@ -2,7 +2,7 @@
  * askSensors HTTP Request
  * Description: Connect ESP8266 to AskSensors over HTTP
  *  Author: https://asksensors.com, 2018
- *  github: https://github.com/asksensors/Arduino-ESP8266-HTTPS
+ *  github: https://github.com/asksensors/AskSensors-ESP8266-API
  */
 
 #include <Arduino.h>
@@ -18,7 +18,6 @@ const char* apiKeyIn = "...................";      // API KEY IN
 // ASKSENSORS config.
 String host = "http://asksensors.com";         // ASKSENSORS host name
 
-#define USE_SERIAL Serial
 ESP8266WiFiMulti WiFiMulti;
 
 void setup() {
@@ -61,6 +60,8 @@ void loop() {
         Serial.print("********** requesting URL: ");
         Serial.println(url);
         http.begin(url); //HTTP
+        
+        Serial.println("> Request sent to ASKSENSORS");
 
         Serial.print("[HTTP] GET...\n");
         // start connection and send HTTP header
