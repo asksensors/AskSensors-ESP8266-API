@@ -35,7 +35,8 @@ void setup() {
   Serial.println("-> WiFi connected");
   Serial.println("-> IP address: ");
   Serial.println(WiFi.localIP());
-
+  // Set Client to insecure
+  client.setInsecure();
  
 }
 
