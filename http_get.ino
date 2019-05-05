@@ -1,7 +1,7 @@
 /*
- * askSensors HTTP Request
+ * AskSensors HTTP Request
  * Description: Connect ESP8266 to AskSensors over HTTP
- *  Author: https://asksensors.com, 2018
+ *  Author: https://asksensors.com, 2018-2019
  *  github: https://github.com/asksensors/AskSensors-ESP8266-API
  */
 
@@ -14,9 +14,10 @@
 const char* wifi_ssid = "...................";             // SSID
 const char* wifi_password = "...................";         // WIFI
 const char* apiKeyIn = "...................";      // API KEY IN
+const unsigned int writeInterval = 25000;   // write interval (in ms)
 
 // ASKSENSORS config.
-String host = "http://asksensors.com";         // ASKSENSORS host name
+String host = "http://api.asksensors.com";         // ASKSENSORS API host name
 
 ESP8266WiFiMulti WiFiMulti;
 
@@ -52,7 +53,7 @@ void loop() {
         // Create a URL for the request
         String url = "";
         url += host;
-        url += "/api.asksensors/write/";
+        url += "/write/";
         url += apiKeyIn;
         url += "?module1=";
         url += random(10,100);
@@ -87,5 +88,5 @@ void loop() {
         Serial.println("*****************************************************");
     }
 
-    delay(25000);
+    delay(writeInterval);   // wait for writeInterval
 }
