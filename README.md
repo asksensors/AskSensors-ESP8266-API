@@ -1,6 +1,10 @@
 # AskSensors ESP8266 API
 Connect ESP8266 to AskSensors IoT Platform.
 
+Documentation:
+-
+- https://asksensors.com/doc/Documentation.html
+
 Requirements:
 - 
 - Create [AskSensors account](https://asksensors.com)
