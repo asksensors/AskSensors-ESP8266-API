@@ -21,8 +21,7 @@ const char* apiKeyIn = "..........";      // API KEY IN, example: FALOAPPKH17ZR4
 
 // create ASKSENSORS client
 WiFiClientSecure client;
-int module1_value = 0;
-// 
+
 void setup() {
   Serial.begin(115200);
   Serial.println();
@@ -51,19 +50,11 @@ void loop() {
     //return;
   }
   
-  /*  
-  if (client.verify(https_fingerprint, https_host)) {
-    Serial.println("-> certificate matches");
-  } else {
-    Serial.println("-> certificate doesn't match");
-  }
-  */
-  
   // Create a URL for the request
   String url = "/write/";
   url += apiKeyIn;
   url += "?module1=";
-  url += module1_value++;
+  url += random(10,100);
   
   Serial.print("********** requesting URL: ");
   Serial.println(url);
